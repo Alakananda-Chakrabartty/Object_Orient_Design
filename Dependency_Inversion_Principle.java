@@ -1,4 +1,5 @@
-/**
+/** Name : Alakananda Chakrabartty
+ * Student ID : 220206
  * Interface defining a report generator.
  */
 interface ReportGenerator {
@@ -128,20 +129,3 @@ public class Main {
         excelReportClient.generateReport();
     }
 }
-/**
- * In this example:
- * We have a ReportGenerator interface that defines a method generateReport().
- * There are two classes implementing the ReportGenerator interface:
- * PDFReportGenerator and ExcelReportGenerator.
- * The ReportClient class represents a client that generates reports
- * using a ReportGenerator.
- * In the Main class, we create instances of PDFReportGenerator and
- * ExcelReportGenerator, and then create ReportClient instances
- * with these generators.
- * This example adheres to the Dependency Inversion Principle because:
- * High-level modules (like ReportClient) depend on abstractions (ReportGenerator)
- * rather than concrete implementations (PDFReportGenerator and ExcelReportGenerator).
- * Low-level modules (PDFReportGenerator and ExcelReportGenerator) also depend
- * on the same abstraction (ReportGenerator), making them interchangeable
- * without affecting the high-level modules.
- */
