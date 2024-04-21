@@ -1,4 +1,5 @@
-/**
+/** Name : Alakananda Chakrabartty
+ * Student ID : 220206
  * This program demonstrates the Liskov Substitution Principle (LSP) by creating a system
  * where different types of birds can fly, but penguins, being flightless birds, have a different behavior.
  */
