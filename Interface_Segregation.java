@@ -1,4 +1,5 @@
-/**
+/** Name : Alakananda Chakrabartty
+ * Student ID : 220206
  * Interface for documents that can be read.
  */
 interface Readable {
@@ -69,20 +70,3 @@ public class Main {
     }
 }
 
-/**
- * In this example:
- * We have three interfaces: Readable, Writable, and Printable,
- * each representing a specific document operation.
- * The TextDocument class implements Readable and Writable,
- * as it can be read from and written to.
- * The PDFDocument class implements Readable and Printable,
- * as it can be read from and printed.
- * The Main class demonstrates the usage of interfaces by
- * creating instances of TextDocument and PDFDocument and
- * invoking methods corresponding to each interface.
- * This example adheres to the Interface Segregation Principle
- * because each interface represents a specific capability,
- * and classes implement only the interfaces relevant to them.
- * Clients can interact with objects through interfaces without
- * depending on unnecessary methods or functionalities.
- */
