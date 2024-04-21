@@ -59,10 +59,3 @@ public class SRPDemo {
         dataDisplayer.displayData();
     }
 }
-/**
- * In this program:
- * DataManager class is responsible for managing data.
- * DataDisplayer class is responsible for displaying data.
- * SRPDemo class demonstrates how these responsibilities are separated into different classes.
- * Each class has its own specific responsibility, adhering to the Single Responsibility Principle.
- */
