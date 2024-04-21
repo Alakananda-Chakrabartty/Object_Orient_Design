@@ -61,19 +61,3 @@ public class LSPDemo {
     }
 }
 
-/**
- * In this program:
- * The Bird interface represents different types of birds
- * and declaresa method fly() to make the bird fly.
- * The FlyingBird class implements the Bird interface and provides
- * an implementation of the fly() method for birds that can fly.
- * The Penguin class represents flightless birds, which
- * also implement the Bird interface. However, penguins cannot fly,
- * so the fly() method does nothing.
- * The BirdTrainer class is responsible for training birds
- * to fly by calling the fly() method on the provided Bird object.
- * The violation of Liskov Substitution Principle occurs when
- * we attempt to train a penguin, which is a subtype of Bird, to fly.
- * Penguins cannot fly, so trying to train them to fly violates the
- * expected behavior of the fly() method defined in the Bird interface.
- */
