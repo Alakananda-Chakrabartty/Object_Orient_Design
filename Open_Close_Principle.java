@@ -110,18 +110,5 @@
          System.out.println("Total Area: " + totalArea);
      }
  }
- /**
-  * In this program:
-  * The Shape interface represents different shapes and declares
-  * a method calculateArea() to calculate the area of the shape.
-  * Circle and Rectangle classes implement the Shape interface and
-  * provide their own implementations of the calculateArea() method.
-  * The AreaCalculator class is responsible for calculating the
-  * total area of all shapes by maintaining a list of shapes and
-  * summing up their areas.
-  * New shapes can be added without modifying existing code by creating
-  * a new class that implements the Shape interface and providing its own
-  * implementation of the calculateArea() method. This adheres to the
-  * Open/Closed Principle (OCP).
- */
+
  
